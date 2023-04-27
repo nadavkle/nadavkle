@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-image: url('your-background-image-url');
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+#contact a {
+    text-decoration: underline;
+}
