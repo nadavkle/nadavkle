@@ -35,7 +35,7 @@ button {
 }
 
 .cta-green {
-    background: #00FFAD;
+    background: #00F3;
     color: #192440;
 }
 
@@ -74,7 +74,7 @@ button {
 }
 
 #banner header img {
-    max-width: 80px;
+    max-width: 160px;
 }
 
 /********** feature (skew background) **********/
@@ -84,11 +84,11 @@ button {
 }
 
 #feature-first {
-    background: linear-gradient(168deg, #ffffff 55%, #00FFAD 0);
+    background: linear-gradient(168deg, #ffffff 55%, #00F3 0);
 }
 
 #feature-last {
-    background: #00FFAD;
+    background: #00F3;
 }
 
 /********** price table **********/
@@ -116,13 +116,13 @@ button {
 }
 
 #contact form {
-    color: #00FFAD;
+    color: #00F3;
 }
 
 #contact form input,
 #contact form textarea {
     background: transparent;
-    border: 1px solid #00FFAD;
+    border: 1px solid #00F3;
     color: #ffffff;
 }
 
@@ -147,7 +147,7 @@ button {
 }
 
 #copyright #social-media a:hover {
-    background: #00FFAD;
+    background: #00F3;
 }
 
 #copyright #social-media a:hover i {
