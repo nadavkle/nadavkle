@@ -36,7 +36,7 @@
             By harnessing cutting-edge computational and systems biology, we capture multi-omics molecular insights
             <br> aimed at driving a paradigm shift for families, and transforming ASD care
         </p>
-        <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
+        <a href="#contact-form" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Contact Us</a>
     </div>
 </div>
 
@@ -90,12 +90,13 @@
         <div class="row justify-content-between">
             <div class="col-md-6 text-white">
                 <h2 class="font-weight-bold">Contact Us</h2>
-                <p class="my-4">
-                    We are always looking for more exceptional talent to join our team.
+                <p class="my-4" id="contact-form">
+                    We're always looking for more exceptional talent
+                    <br> to join our team.<br>
                     <br> If you're passionate about ASD care, drop us a note:
                 </p>
                 <ul class="list-unstyled">
-                    <li>Email : info@point6.bio
+                    <li>Email : <a href="mailto:info@point6.bio">info@point6.bio</a>
                         <!--<span id="email_placeholder"></span>-->
                         <!--<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f0939f9d80919e89af959d91999cb0939f9d">[email&#160;protected]</a></li>-->
                     <li>Phone : 02-655-3333</li>
@@ -103,20 +104,21 @@
                 </ul>
             </div>
             <div class="col-md-6">
-                <form>
+                <form action="https://formspree.io/f/mwkjdeap" method="POST">
+                    <input type="hidden" name="_subject" value="P6 website contact us form: ">
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="name">Your Name</label>
-                            <input type="name" class="form-control" id="name">
+                            <input type="name" class="form-control" name="_senderName" id="name">
                         </div>
                         <div class="form-group col-md-6">
                             <label for="Email">Your Email</label>
-                            <input type="email" class="form-control" id="Email">
+                            <input type="email" class="form-control" name="_replyto" id="Email">
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="message">Message</label>
-                        <textarea class="form-control" id="message" rows="3"></textarea>
+                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
                     </div>
                     <button type="submit" class="btn font-weight-bold atlas-cta atlas-cta-wide cta-green my-3">Submit</button>
                 </form>
